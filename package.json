@@ -1,0 +1,44 @@
+{
+  "name": "airtap-electron",
+  "version": "0.0.0",
+  "description": "Electron browser provider",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && depcheck && npm run test:unit",
+    "test:unit": "cross-env DEBUG=airtap* nyc node test",
+    "fix:js": "standard --fix",
+    "fix:md": "hallmark --fix"
+  },
+  "files": [
+    "index.js",
+    "electron.js"
+  ],
+  "dependencies": {
+    "abstract-browser": "^1.0.0",
+    "browser-provider": "^1.1.0"
+  },
+  "devDependencies": {
+    "airtap": "github:airtap/airtap#d8da4f6",
+    "cross-env": "^7.0.2",
+    "depcheck": "^1.2.0",
+    "electron": "^9.2.0",
+    "hallmark": "^3.0.0",
+    "nyc": "^15.1.0",
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "keywords": [
+    "airtap",
+    "browser",
+    "browser-provider",
+    "electron",
+    "test"
+  ],
+  "repository": "airtap/electron",
+  "bugs": "https://github.com/airtap/electron/issues",
+  "homepage": "https://github.com/airtap/electron",
+  "engines": {
+    "node": ">=10.2"
+  }
+}
