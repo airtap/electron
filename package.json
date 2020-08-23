@@ -1,6 +1,6 @@
 {
   "name": "airtap-electron",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Electron browser provider",
   "license": "MIT",
   "author": "Vincent Weevers",
