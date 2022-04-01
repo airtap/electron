@@ -21,7 +21,7 @@
   "devDependencies": {
     "airtap": "^4.0.1",
     "cross-env": "^7.0.2",
-    "electron": "^17.1.0",
+    "electron": "^18.0.1",
     "hallmark": "^4.0.0",
     "nyc": "^15.1.0",
     "standard": "^16.0.4",
